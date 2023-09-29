@@ -1,0 +1,8 @@
+*.class
+*.i
+*.ii
+*.o
+*.s
+*.so
+*~
+Main.h
