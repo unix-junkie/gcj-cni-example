@@ -10,7 +10,9 @@ version 3.11.1 available as a part of Debian 9 "Stretch").
 When configuring GCC (**5.x** or **6.x**), the `--with-ecj-jar` switch should
 be passed to the `configure` script, e.g.:
 
-```bash ./configure --with-ecj-jar=/usr/share/java/ecj.jar ```
+```bash
+./configure --with-ecj-jar=/usr/share/java/ecj.jar
+```
 
 If `libecj-java` package is upgraded along with Debian Linux, the `GCCMain`
 class will be gone, breaking the Java-to-bytecode compilation feature of GCJ
